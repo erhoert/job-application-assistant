@@ -16,7 +16,7 @@ from job_assistant.vector_store import VectorStore
 class MockGeminiClient:
     """Deterministic mock GeminiClient with a hash-based embed method."""
 
-    def __init__(self, dim: int = 768) -> None:
+    def __init__(self, dim: int = 3072) -> None:
         """Configure the embedding dimension.
 
         Args:
