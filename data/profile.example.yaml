@@ -1,0 +1,50 @@
+name: "Your Name"
+title: "Your Professional Title"
+location: "Your City, Country"
+email: "your.email@example.com"
+phone: "+49-xxx-xxxxxxx"
+
+summary: |
+  2-3 sentence professional summary.
+
+experience:
+  - company: "Company Name"
+    role: "Job Title"
+    duration: "2023 - present"
+    highlights:
+      - "Key achievement 1"
+      - "Key achievement 2"
+
+  - company: "Previous Company"
+    role: "Previous Role"
+    duration: "2020 - 2023"
+    highlights:
+      - "Key achievement"
+
+skills:
+  technical:
+    - "Python"
+    - "SQL"
+    - "LLM API integration"
+    - "Data analysis"
+  soft:
+    - "Technical writing"
+    - "Cross-functional communication"
+    - "Project management"
+
+languages:
+  - language: "German"
+    level: "native"
+  - language: "English"
+    level: "C2"
+  - language: "Russian"
+    level: "C1"
+
+education:
+  - degree: "B.Sc. Electrical Engineering"
+    institution: "RWTH Aachen"
+    year: "2015"
+
+preferences:
+  cover_letter_tone: "professional_warm"
+  cover_letter_language: "english"
