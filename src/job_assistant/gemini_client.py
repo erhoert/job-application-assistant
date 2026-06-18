@@ -10,8 +10,9 @@ from pydantic import BaseModel
 
 from job_assistant.config import get_gemini_api_key
 
-DEFAULT_MODEL = "gemini-3.5-flash"
+DEFAULT_MODEL = "gemini-2.5-flash"
 EMBEDDING_MODEL = "gemini-embedding-001"
+EMBEDDING_DIM = 3072
 
 T = TypeVar("T", bound=BaseModel)
 

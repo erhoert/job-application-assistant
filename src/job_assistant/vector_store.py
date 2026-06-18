@@ -12,7 +12,7 @@ import sqlite_vec
 from job_assistant.gemini_client import GeminiClient
 from job_assistant.models import JobAnalysis
 
-EMBEDDING_DIM = 768
+EMBEDDING_DIM = 3072
 
 
 class VectorStore:
@@ -44,7 +44,7 @@ class VectorStore:
             """
             CREATE VIRTUAL TABLE IF NOT EXISTS job_vectors USING vec0(
                 id INTEGER PRIMARY KEY,
-                embedding FLOAT[768]
+                embedding FLOAT[3072]
             )
             """
         )
