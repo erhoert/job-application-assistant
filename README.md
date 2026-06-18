@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Job Application Assistant" width="100%">
+</p>
+
 # 🎯 Job Application Assistant
 
 AI-powered CLI tool that analyzes job postings, matches them against your profile,
